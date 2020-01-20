@@ -1,6 +1,6 @@
 const url = require('url');
-const logger = require("./logger");
-const { iexapis } = require('./src/services/iexcloud');
+const logger = require("../../logger");
+const { iexapis } = require('./iexcloud');
 
 exports.getStockData = async function (req, res) {
     res.setHeader('Content-Type', 'application/json');

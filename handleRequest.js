@@ -1,4 +1,4 @@
-const service = require('./service.js');
+const service = require('./src/services/serviceStock');
 const http = require('http');
 const url = require('url');
 const logger = require("./logger");
